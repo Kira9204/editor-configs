@@ -1,0 +1,129 @@
+{
+  "workbench.colorTheme": "Default Dark+ IntelliJ Theme",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.editor.showTabs": "multiple",
+  "workbench.editorAssociations": {
+    "git-rebase-todo": "default"
+  },
+  "workbench.editor.enablePreview": false,
+  "editor.codeLens": true,
+  "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "editor.fontSize": 14,
+  "editor.renderWhitespace": "all",
+  "editor.fontLigatures": false,
+  "editor.formatOnSave": true,
+  "editor.lineHeight": 1.5,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "editor.minimap.scale": 2,
+  "editor.minimap.renderCharacters": true,
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.tabCompletion": "on",
+  "editor.linkedEditing": true,
+  "html.format.indentInnerHtml": true,
+  "terminal.integrated.fontSize": 14,
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "WSL": {
+      "path": [
+        "C:\\WINDOWS\\System32\\wsl.exe"
+      ],
+      "args": [],
+      "icon": "terminal-ubuntu-wsl"
+    }
+  },
+  "debug.console.fontSize": 16,
+  "files.autoSave": "onFocusChange",
+  "vsicons.associations.fileDefault.file": null, // A max files to display with local history commands,
+  "git.mergeEditor": true,
+  "window.commandCenter": true,
+  "window.nativeTabs": true,
+  "settingsSync.ignoredSettings": [
+    "-java.configuration.runtimes",
+    "-java.jdt.ls.java.home",
+    "-window.zoomLevel"
+  ],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.enableSmartCommit": true,
+  "githubPullRequests.defaultMergeMethod": "rebase",
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.currentLine.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.statusBar.enabled": false,
+  "gitlens.defaultDateFormat": "YYYY-MM-DD HH:MM",
+  "gitlens.defaultDateLocale": null,
+  "gitlens.defaultDateStyle": "absolute",
+  "gitlens.defaultDateShortFormat": "YYYY-MM-DD HH:MM",
+  "gitlens.defaultTimeFormat": "YYYY-MM-DD HH:MM",
+  "security.workspace.trust.untrustedFiles": "open",
+  "gitlens.hovers.enabled": false,
+  "git.autofetch": false,
+  "githubPullRequests.pullBranch": "never",
+  "prettier.requireConfig": true,
+  "prettier.tabWidth": 2,
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-25",
+      "path": "/Users/EWELAND2/.sdkman/candidates/java/25.0.3-tem",
+      "default": true
+    },
+  ],
+  "java.completion.enabled": true,
+  "java.jdt.ls.lombokSupport.enabled": true,
+  "java.signatureHelp.enabled": true,
+  "java.referencesCodeLens.enabled": true,
+  "java.format.enabled": true,
+  "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/intellij-java-google-style.xml",
+  "java.format.settings.profile": "GoogleStyle",
+  "java.autobuild.enabled": true,
+  "java.debug.settings.forceBuildBeforeLaunch": true,
+  "java.debug.settings.console": "integratedTerminal",
+  "java.server.launchMode": "Hybrid",
+  "java.debug.settings.showStaticVariables": false,
+  "java.debug.settings.showQualifiedNames": false,
+  "java.debug.settings.showToString": true,
+  "maven.showInExplorerContextMenu": true,
+  "maven.executable.preferMavenWrapper": false,
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.enable": {
+        "*": true
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "mkhl.shfmt"
+  },
+  "[lua]": {
+    "editor.defaultFormatter": "JohnnyMorganz.stylua"
+  },
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.allowMnemonics": true,
+  "terminal.integrated.inheritEnv": true,
+  "terminal.integrated.shellIntegration.enabled": false,
+  "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+  "terminal.integrated.minimumContrastRatio": 1,
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "chat.viewSessions.orientation": "stacked"
+}

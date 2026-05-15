@@ -1,0 +1,66 @@
+[
+  {
+    "key": "cmd+g",
+    "command": "-editor.action.nextMatchFindAction",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+g",
+    "command": "-workbench.action.terminal.findNext",
+    "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "cmd+backspace",
+    "command": "editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+k",
+    "command": "-editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+d",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "-editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+enter",
+    "command": "mdb.runSelectedPlaygroundBlocks",
+    "when": "editorLangId == 'mongodb'"
+  },
+  {
+    "key": "alt+cmd+s",
+    "command": "-mdb.runSelectedPlaygroundBlocks",
+    "when": "editorLangId == 'mongodb'"
+  },
+  {
+    "key": "alt+d",
+    "command": "gitlens.diffWithRevisionFrom"
+  },
+  {
+    "key": "cmd+enter",
+    "command": "vscode-postgres.runQuery",
+    "when": "editorLangId == 'postgres'"
+  },
+  {
+    "key": "f5",
+    "command": "-vscode-postgres.runQuery",
+    "when": "editorLangId == 'postgres'"
+  },
+  {
+    "key": "cmd+enter",
+    "command": "mdb.runAllPlaygroundBlocks",
+    "when": "mdb.isPlayground"
+  },
+  {
+    "key": "alt+cmd+r",
+    "command": "-mdb.runAllPlaygroundBlocks",
+    "when": "mdb.isPlayground"
+  }
+]
