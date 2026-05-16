@@ -15,7 +15,17 @@
     "when": "textInputFocus && !editorReadonly"
   },
   {
+    "key": "ctrl+backspace",
+    "command": "editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
     "key": "shift+cmd+k",
+    "command": "-editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+k",
     "command": "-editor.action.deleteLines",
     "when": "textInputFocus && !editorReadonly"
   },
@@ -25,7 +35,17 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
+    "key": "ctrl+d",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
     "key": "shift+alt+down",
+    "command": "-editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+alt+down",
     "command": "-editor.action.copyLinesDownAction",
     "when": "editorTextFocus && !editorReadonly"
   },
@@ -49,6 +69,11 @@
     "when": "editorLangId == 'postgres'"
   },
   {
+    "key": "ctrl+enter",
+    "command": "vscode-postgres.runQuery",
+    "when": "editorLangId == 'postgres'"
+  },
+  {
     "key": "f5",
     "command": "-vscode-postgres.runQuery",
     "when": "editorLangId == 'postgres'"
@@ -59,7 +84,17 @@
     "when": "mdb.isPlayground"
   },
   {
+    "key": "ctrl+enter",
+    "command": "mdb.runAllPlaygroundBlocks",
+    "when": "mdb.isPlayground"
+  },
+  {
     "key": "alt+cmd+r",
+    "command": "-mdb.runAllPlaygroundBlocks",
+    "when": "mdb.isPlayground"
+  },
+  {
+    "key": "alt+ctrl+r",
     "command": "-mdb.runAllPlaygroundBlocks",
     "when": "mdb.isPlayground"
   }
